@@ -1,0 +1,37 @@
+.wrapper {
+    min-width: 175px;
+    min-height: 48px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2rem;
+    font-weight: 700;
+    user-select: none;
+    padding: 8px 16px;
+
+    & + .wrapper {
+        margin-left: 8px;
+    }
+}
+
+.primary {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.outline {
+    border: 5px solid var(--white-color);
+    cursor: pointer;
+}
+
+.text {
+    background-color: transparent;
+    cursor: pointer;
+    &:hover {
+        color: var(--primary-color);
+    }
+}

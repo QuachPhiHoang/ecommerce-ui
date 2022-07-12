@@ -1,0 +1,35 @@
+:root {
+    --header-top-bar-height: 38px;
+    --header-height: 126px;
+    --header-nav-bar-height: calc(var(--header-height) - var(--header-top-bar-height));
+    --primary-color: #004e82;
+    --text-color: #1d1d1d;
+    --white-color: #fff;
+    --descripton-color: #555;
+    --button-color: #d6773e;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Baloo 2', cursive;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
